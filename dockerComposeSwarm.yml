@@ -9,7 +9,7 @@ services:
     networks:
       - spring_demo_net
   web:
-    image: getmub/todo:v1
+    image: msanthoshchn/todo:v2
     depends_on:
       - db
     ports:
